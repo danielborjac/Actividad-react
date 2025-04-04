@@ -1,12 +1,32 @@
-# React + Vite
+# Desarrollo de una Aplicación en SPA con React Router DOM
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Se ha desarrollado una aplicación web en formato SPA (Single Page Application) con React y React Router DOM. Permite a los usuarios explorar una lista de películas populares, buscar películas por título y ver detalles de cada película utilizando la API de The Movie Database (TMDb).
 
-Currently, two official plugins are available:
+# Pasos para ejecutar el proyecto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Clona este repositorio:
+  git clone https://github.com/tuusuario/movie-explorer.git
+  cd movie-explorer
 
-## Expanding the ESLint configuration
+2.Instala las dependencias:
+  npm install
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3. Ejecuta el servidor de desarrollo:
+  npm run dev
+
+4.Abre tu navegador y accede a http://localhost:5173
+
+# Estructura del proyecto
+
+/movie-explorer
+│── src/
+│   ├── components/        # Componentes reutilizables
+│   ├── pages/             # Páginas principales (Home, MovieDetail, Search)
+│   ├── App.jsx            # Configuración principal de la aplicación
+│   ├── main.jsx           # Punto de entrada con React Router
+│── public/                # Archivos estáticos
+│── package.json           # Dependencias y scripts
+│── vite.config.js         # Configuración de Vite
+│── .env.example           # Ejemplo del archivo de variables de entorno
+│── README.md              # Documentación del proyecto
+
