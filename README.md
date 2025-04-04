@@ -11,7 +11,10 @@ Se ha desarrollado una aplicación web con Next.js utilizando SSR (Server-Side R
 2. Instalar dependencias:
     npm install
 
- 3. Iniciar el servidor de desarrollo:
+3. Configurar variables de entorno:
+   Crea un archivo .env en la raíz del proyecto y agrega tu clave de API de TMDb: NEXT_PUBLIC_TMDB_API_KEY=65c2dc0c33d7fee639d5bc8e814e0151
+
+5. Iniciar el servidor de desarrollo:
     npm run dev
 
 # Estructura del Proyecto
