@@ -8,13 +8,13 @@ Se ha desarrollado una aplicación web en formato SPA (Single Page Application) 
   git clone https://github.com/tuusuario/movie-explorer.git
   cd movie-explorer
 
-2.Instala las dependencias:
+2. Instala las dependencias:
   npm install
 
 3. Ejecuta el servidor de desarrollo:
   npm run dev
 
-4.Abre tu navegador y accede a http://localhost:5173
+4. Abre tu navegador y accede a http://localhost:5173
 
 # Estructura del proyecto
 
