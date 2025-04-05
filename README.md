@@ -5,8 +5,9 @@ Se ha desarrollado una aplicación web con Next.js utilizando SSR (Server-Side R
 # Instrucciones para Ejecutar el Proyecto
 
 1. Clonar el repositorio:
-    git clone https://github.com/tu_usuario/movie-explorer-next.git
-    cd movie-explorer-next
+   nota: debe clonar la rama ssr
+   git clone --branch ssr https://github.com/danielborjac/Actividad-react.git
+
 
 2. Instalar dependencias:
     npm install
