@@ -5,8 +5,7 @@ Se ha desarrollado una aplicación web en formato SPA (Single Page Application) 
 # Pasos para ejecutar el proyecto
 
 1. Clona este repositorio:
-  git clone https://github.com/tuusuario/movie-explorer.git
-  cd movie-explorer
+  git clone https://github.com/danielborjac/Actividad-react.git
 
 2. Instala las dependencias:
   npm install
