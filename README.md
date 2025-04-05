@@ -5,15 +5,16 @@ Se ha desarrollado una aplicación web en formato SPA (Single Page Application) 
 # Pasos para ejecutar el proyecto
 
 1. Clona este repositorio:
-  git clone https://github.com/danielborjac/Actividad-react.git
+  nota: debe clonar la rama spa
+  git clone --branch spa https://github.com/danielborjac/Actividad-react.git
 
-2. Instala las dependencias:
+3. Instala las dependencias:
   npm install
 
-3. Ejecuta el servidor de desarrollo:
+4. Ejecuta el servidor de desarrollo:
   npm run dev
 
-4. Abre tu navegador y accede a http://localhost:5173
+5. Abre tu navegador y accede a http://localhost:5173
 
 # Estructura del proyecto
 
